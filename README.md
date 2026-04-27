@@ -14,22 +14,10 @@ This showroom highlights the ability to build enterprise-ready AI solutions for 
 
 The system is decoupled into an ingestion engine and a retrieval chain, ensuring scalability and clean code standards.
 
-```mermaid
-graph TD
-    subgraph Local Ingestion Engine
-        A[Large PDF Document] -->|PyPDFLoader| B(Text Extraction)
-        B -->|RecursiveCharacterTextSplitter| C{Expert Chunking}
-        C -->|Add Metadata| D[Enriched Chunks]
-        D -->|HuggingFace Embeddings| E[(ChromaDB Local Vector DB)]
-    end
+![Infraestrutura](prints/Gemini_Generated_Image_cmr261cmr261cmr2.jpg)
 
-    subgraph Local Inference & UI
-        F[User Query] -->|Streamlit UI| G(Local Embeddings)
-        G -->|Similarity Search| E
-        E -->|Retrieved Context + Metadata| H[Prompt Template]
-        H -->|Ollama SDK| I((Mistral LLM))
-        I -->|Grounded Response| J[Streamlit Chat & X-Ray]
-    end
+
+![Arquitetura](prints/Gemini_Generated_Image_jmuhs8jmuhs8jmuh.jpg)
 
 
 🛡️ Privacy Architecture (Zero Data Leakage)
@@ -44,10 +32,6 @@ On-Device Vector Persistence: Demonstrates expertise in managing local databases
 RAG X-Ray Dashboard: A dedicated inspection tab that visualizes the "thinking process" — showing retrieved chunks, metadata, and similarity ranking.
 
 Source Provenance: Automatic citation of sources (document name and page number) to eliminate hallucinations.
-
-
-
-![Execução Ollama](prints/Captura_de_tela_de_2026-04-27_13-45-06.jpg)
 
 
 
@@ -87,7 +71,7 @@ streamlit run app.py
 
 
 
-![Interface do Showroom](prints/Captura_de_tela_de_2026-04-27_15-07-54.png)
+![Interface](prints/Captura_de_tela_de_2026-04-27_15-07-54.png)
 
 
 
@@ -162,8 +146,8 @@ Domain Expertise: Forcing the model to act as a Senior GIS Specialist, Legal Ana
 Output Consistency: Ensuring the assistant follows professional standards, avoids jargon (or uses it precisely), and formats responses for maximum readability.
 
 
-![Arquitetura RAG](prints/Gemini_Generated_Image_jmuhs8jmuhs8jmuh.jpg)
-![Esquema de Infraestrutura](prints/Gemini_Generated_Image_cmr261cmr261cmr2.jpg)
+
+![Terminal](prints/Captura_de_tela_de_2026-04-27_13-45-06.jpg)
 
 
 
