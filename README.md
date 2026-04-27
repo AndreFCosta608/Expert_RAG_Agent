@@ -14,10 +14,10 @@ This showroom highlights the ability to build enterprise-ready AI solutions for 
 
 The system is decoupled into an ingestion engine and a retrieval chain, ensuring scalability and clean code standards.
 
-![Infraestrutura](prints/Gemini_Generated_Image_cmr261cmr261cmr2.jpg)
+![Infraestrutura](./prints/Gemini_Generated_Image_cmr261cmr261cmr2.png)
 
 
-![Arquitetura](prints/Gemini_Generated_Image_jmuhs8jmuhs8jmuh.jpg)
+![Arquitetura](./prints/Gemini_Generated_Image_jmuhs8jmuhs8jmuh.png)
 
 
 🛡️ Privacy Architecture (Zero Data Leakage)
@@ -71,7 +71,7 @@ streamlit run app.py
 
 
 
-![Interface](prints/Captura_de_tela_de_2026-04-27_15-07-54.png)
+![Interface](./prints/Captura_de_tela_de_2026-04-27_15-07-54.png)
 
 
 
@@ -147,7 +147,7 @@ Output Consistency: Ensuring the assistant follows professional standards, avoid
 
 
 
-![Terminal](prints/Captura_de_tela_de_2026-04-27_13-45-06.jpg)
+![Terminal](./prints/Captura_de_tela_de_2026-04-27_13-45-06.png)
 
 
 
