@@ -71,7 +71,7 @@ streamlit run app.py
 
 
 
-![Interface](./prints/Captura_de_tela_de_2026-04-27_15-07-54.png)
+![Interface](./prints/Streamlit.png)
 
 
 
@@ -147,7 +147,7 @@ Output Consistency: Ensuring the assistant follows professional standards, avoid
 
 
 
-![Terminal](./prints/Captura_de_tela_de_2026-04-27_13-45-06.png)
+![Terminal](./prints/mistral.png)
 
 
 
